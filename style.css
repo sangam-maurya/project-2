@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+main{
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 10rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 5px 0px;
+
+}
+
+.upper-side{
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.684);
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius:1.5rem;;
+    position: relative;
+}
+img{
+    margin-left:  6.1rem ;
+    border-radius:50% ;
+    margin-top: 3.8rem;
+    height: 100px;
+    width: 100px;
+    border: 3px solid white;
+    border-bottom : 3px solid blue ;
+    object-fit: cover;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.name p{
+    margin-top: -1rem;
+}
+
+.socal-media{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1.5rem;
+    opacity: 0.5;
+    transition: 1s;
+}
+.socal-media:hover{
+    opacity: 1;
+}
+a{
+    margin: 0.5rem;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 0.9rem;
+}
+.btn{
+    display:flex;
+}
+.btn1{
+    margin-left:4rem ;
+}
+.btn2{
+    margin-left: 1.8rem;
+    width: 4.9rem;
+    height: 1.8rem;
+}
+.likes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.8rem;
+}
+.likes p{
+    margin-left: 1rem;
+}
